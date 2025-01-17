@@ -25,6 +25,7 @@ spec:
       - name: nginx
         image: nginx
         ports:
+        - port: 80
         - containerPort: 80
 ---
 apiVersion: v1
